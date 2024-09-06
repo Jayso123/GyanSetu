@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.searchbox {
+  /* background-color: red; */
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 60px;
+}
+
+.search {
+  height: 40px;
+  width: 35%;
+  padding: 0px 45px 0px 20px;
+  /* margin-right: 20px; */
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px 0px;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.searchbtn {
+  position: relative;
+  z-index: 5;
+  left: -40px;
+  font-size: 30px;
+  color: aqua;
+}
+
+.searchbtn:hover {
+  cursor: pointer;
+  color: rgb(2, 184, 184);
+}
+
+.card1 {
+  position: relative;
+  top: 80px;
+  left: 250px;
+  height: 300px;
+  width: 60%;
+  background-color: rgb(191, 191, 191);
+  border-radius: 20px;
+}
+
+.text {
+  position: relative;
+  left: 50px;
+  top: 20px;
+  font-size: 17px;
+  /* padding: 5px 0px 0px 15px; */
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  background-color: white;
+}
+
+.text h3 {
+  position: relative;
+  top: 3px;
+  left: 17px;
+}
+
+.textarea {
+  position: relative;
+  /* height: 10px;
+  width: 260px; */
+  top: 70px;
+  left: 50px;
+}
+
+.area {
+  position: relative;
+  width: 320px;
+  height: 120px;
+}
+
+.btn {
+  position: relative;
+  top: 80px;
+  left: 230px;
+  background-color: white;
+  padding: 0px 0px 0px 15px;
+  width: 85px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.arrow {
+  position: relative;
+  top: 2px;
+}
+
+.hr {
+  position: relative;
+  width: 30%;
+  left: 38%;
+  top: -20px;
+  /* border: 1px solid black; */
+  transform: rotate(90deg);
+}
+
+.img {
+  position: relative;
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  float: right;
+  top: -120px;
+  left: -40px;
+  border-radius: 10px;
+}
+
+.pathway {
+  position: relative;
+  height: 180px;
+  width: 240px;
+  float: right;
+  top: 10px;
+  left: -30px;
+}
+
+.pie {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  float: right;
+  top: 10px;
+  left: -50px;
+}
+
+.clg {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  float: right;
+  top: -15px;
+  left: -50px;
+}
