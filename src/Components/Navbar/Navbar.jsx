@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import "../Navbar/Navbar.css";
 import logo from "../img/logo.png";
 import profile from "../img/profile.png";
+import Community from "./Community";
+import Pathway from "./Pathway";
+import Counselor from "./Counselor";
+import Learning from "./Learning";
 
 class Navbar extends Component {
   render() {
@@ -14,19 +18,29 @@ class Navbar extends Component {
           <div className="center">
             <ul className="list">
               <li className="item">
-                <h4>Home</h4>
+                <a href="/">
+                  <h4>Home</h4>
+                </a>
               </li>
               <li className="item">
-                <h4>Pathway</h4>
+                <a href={Pathway}>
+                  <h4>Pathway</h4>
+                </a>
               </li>
               <li className="item">
-                <h4>Counselor</h4>
+                <a href={Counselor}>
+                  <h4>Counselor</h4>
+                </a>
               </li>
               <li className="item">
-                <h4>Learing</h4>
+                <a href={Learning}>
+                  <h4>Learing</h4>
+                </a>
               </li>
               <li className="item">
-                <h4>Community</h4>
+                <a href={Community}>
+                  <h4>Community</h4>
+                </a>
               </li>
             </ul>
           </div>
